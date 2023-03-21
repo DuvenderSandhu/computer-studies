@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+:root{
+    --bg:#ffffff;
+    --color:#2B3467;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.sec-nav{
+    /* display:none; */
+    /* height: 0px; */
+    z-index: -1; 
+    padding:1rem 2rem;
+    background:var(--bg);
+    color:white;
+    transition: height 2s ease-in-out;
+    /* transition: all 2s ease-in-out; */
+    
+}
+.btn-primary{
+    padding:1rem;
+    cursor: pointer;
+    background-color: #2B3467;
+    color:var(--bg);
+    font-weight:bold;
+    outline:none;
+    border:1px solid white;
+}
+.btn-primary:hover{
+    background-color: white;
+    border: 1px solid #2B3467;
+    color:#2B3467;
+
+
+}
+.btn-secondary{
+    padding: 1rem;
+    color: #2B3467;
+    background: white;
+    font-weight: bold;
+    border: 1px solid #2B3467;
+    cursor:pointer;
+}
+
+.btn-secondary:hover{
+    background-color: #2B3467;
+    border: 1px solid white;
+    color:white;
+
+}
+.nav{
+    padding:1rem 2rem;
+    /* background:var(--bg); */
+    
+    color:#2B3467;
+}
+.navul{
+    font-size: 1.1rem;
+}
+.navli{
+    margin: 5px;
+    cursor: pointer;
+    color:black;
+    text-decoration: none;
+    /* color:white; */
+}
+.navli:hover{
+    color:#2B3467;
+    /* color:black; */
+
+}
+
+.nav ul{
+    list-style: none;
+}
+.nav ul li{
+    margin: 5px 0.5rem;
+    padding: 5px 0.5rem;
+    color: #2B3467;
+}
+
+.logo{
+    height: 30px;
+    width: 30px;
+    margin:10px;
+}
+.t-nav hr{
+    width: 25px;   
+    margin: 5px;
+    border: 1px solid #2B3467;
+   }
+
+.footer{
+    background-color: var(--bg);
+    color: var(--color);
+    padding: 1rem 2rem;
+    
+}
+.footer ul li{
+    margin: 0.5rem;
+    color:#2B3467;
+    font-weight: bold;
+}
+.footer ul li:hover{
+    color:black;
+}

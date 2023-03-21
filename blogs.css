@@ -1,0 +1,18 @@
+.box{
+        background: lightgray;
+    color: var(--color);
+    padding: 1rem;
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.box a{
+    color: var(--color);
+    font-weight: bold;
+    text-decoration: none;
+}
+.box a:hover{
+    text-decoration: underline;
+    
+}
